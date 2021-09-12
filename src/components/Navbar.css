@@ -1,0 +1,138 @@
+.NavbarItems{
+    /* Background */
+    background: gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo{
+    color:white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.fa-record-vinyl{
+    font-size: 1.3rem;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover{
+    background-color: black;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+/*----------------------SEARCHBAR------------------------------*/
+.searchbarInput {
+    margin-top: 1px;
+    
+}
+  
+.searchbar input {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 12px 3px black;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.searchResult {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+.dataResult::-webkit-scrollbar {
+    display: none;
+  }
+    
+
+    
+
+label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .card-container.card {
+    max-width: 350px !important;
+    padding: 40px 40px;
+  }
+  
+  .card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+/*
+.fa-search{}
+.menu-icon{
+    display: none;
+}
+*/
+/*
+@media screen and (max-width: 960px){
+    .NavbarItems{
+        position: relative;
+    }
+
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active{
+
+    }
+}
+*/

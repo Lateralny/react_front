@@ -1,0 +1,22 @@
+body{
+    background: white;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+.big-logo{
+    position: relative;
+    margin: auto;
+    width: 60%;
+}  
+.aboutus{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    box-sizing: padding-box;
+    background: gray;
+}
